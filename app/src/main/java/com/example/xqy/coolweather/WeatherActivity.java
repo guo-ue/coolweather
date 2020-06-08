@@ -73,8 +73,9 @@ public class WeatherActivity extends AppCompatActivity {
         forecastLayout=(LinearLayout)findViewById(R.id.forecast_layout);
         aqiText=(TextView)findViewById(R.id.aqi_text);
         pm25Text=(TextView)findViewById(R.id.pm25_text);
-
-
+        comfortText=(TextView)findViewById(R.id.comfort_text);
+        carWashText=(TextView)findViewById(R.id.car_wash_text);
+        sportText=(TextView)findViewById(R.id.sport_text);
 
         swipeRefresh=(SwipeRefreshLayout)findViewById(R.id.swipe_refresh);
         swipeRefresh.setColorSchemeResources(R.color.colorPrimary);
